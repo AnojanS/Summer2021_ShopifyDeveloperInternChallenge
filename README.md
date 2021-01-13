@@ -1,6 +1,6 @@
 
 # Image Repo
 
-Install: npm install
-Run locally: npm start
-Run tests: npm test
+Install: npm install <br>
+Run locally: npm start <br>
+Run tests: npm test <br>
