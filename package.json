@@ -1,0 +1,37 @@
+{
+  "name": "pegexchange",
+  "version": "1.0.0",
+  "description": "Shopify Backend Challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/env-cmd -f ./config/dev.env nodemon src/index.js",
+    "test": "./node_modules/.bin/env-cmd -f ./config/test.env jest --watch --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmengo/PegExchange.git"
+  },
+  "author": "James Meng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmengo/PegExchange/issues"
+  },
+  "homepage": "https://github.com/jmengo/PegExchange#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "sharp": "^0.26.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.5",
+    "supertest": "^5.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
